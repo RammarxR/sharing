@@ -1,6 +1,12 @@
-#!/usr/bin/env groovy
+import org.dcube.build.HelloWorld
+import org.dcube.ioc.ContextRegistry
 
-def call(String name = 'human') {
-  echo "Hello, ${name}."
+def call(String solutionPath) {
+    ContextRegistry.registerDefaultContext(this)
+
+    def helloworld = new HelloWorld(solutionPath)
+    helloworld.build()
 }
+Footer
+© 2023 GitHu
 
