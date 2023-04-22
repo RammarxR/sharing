@@ -1,3 +1,3 @@
-def fun(name){
+def fun('name'){
 	echo "this is my ${name}"
 }
