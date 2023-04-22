@@ -1,3 +1,6 @@
-def fun(name){
-	echo "this is my ${name}"
+#!/usr/bin/env groovy
+
+def call(String name = 'human') {
+  echo "Hello, ${name}."
 }
+
