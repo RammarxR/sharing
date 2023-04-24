@@ -1,3 +1,3 @@
-def check(){
-  echo "this is ram"
+def check(name){
+  echo "this is ${name}"
 }
