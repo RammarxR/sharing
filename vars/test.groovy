@@ -1,3 +1,3 @@
-def test(name){
-  echo "this is ${name}"
+def test(){
+  echo "this is ram"
 }
